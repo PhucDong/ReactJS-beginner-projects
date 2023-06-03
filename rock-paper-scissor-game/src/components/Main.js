@@ -47,8 +47,8 @@ export default function Main() {
     <div className="conainer">
       <div className="main">
         <Result
-          user1GameItem={userGameItem}
-          user2GameItem={computerGameItem}
+          userGameItem={userGameItem}
+          computerGameItem={computerGameItem}
           result={result}
         />
         <Display />

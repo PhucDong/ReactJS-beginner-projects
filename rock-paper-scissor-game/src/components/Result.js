@@ -1,15 +1,15 @@
 import React from "react";
 
-function Result({ user1GameItem, user2GameItem, result }) {
+function Result({ userGameItem, computerGameItem, result }) {
   return (
     <div>
       <h1 className="result-header">Result</h1>
       <div className="result-wrapper">
-        {user1GameItem && <span>{user1GameItem.name}</span>}
+        {userGameItem && <span>{userGameItem.name}</span>}
 
         <span className="result">{result}</span>
 
-        {user2GameItem && <span>{user2GameItem.name}</span>}
+        {computerGameItem && <span>{computerGameItem.name}</span>}
       </div>
     </div>
   );

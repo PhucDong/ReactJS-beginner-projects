@@ -1,4 +1,5 @@
 # ReactJS Beginner's Projects
-**UPDATE**: 27 April 2023
 
-A collection of ReactJS projects that reinforce learners their ReactJS skills.
+**UPDATE**: 3 June 2023
+
+A collection of ReactJS projects for beginners that reinforce their ReactJS skills.

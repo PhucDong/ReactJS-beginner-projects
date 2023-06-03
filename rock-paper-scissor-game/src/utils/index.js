@@ -3,8 +3,8 @@ export const getRandomGameItem = (gamesItems) => {
   return gamesItems[index];
 };
 
-export const calculatorUserWinner = (user1GameItem, user2GameItem) => {
-  if (user1GameItem.id === user2GameItem.id) return "Draw";
-  else if (user1GameItem.winItemIds.includes(user2GameItem.id)) return "Win";
+export const calculatorUserWinner = (userGameItem, computerGameItem) => {
+  if (userGameItem.id === computerGameItem.id) return "Draw";
+  else if (userGameItem.winItemIds.includes(computerGameItem.id)) return "Win";
   else return "Lost";
 };
